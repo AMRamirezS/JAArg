@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(109, 223, 188);
+    font-size: 20px;
+}
+
+h1{
+    font-size: 34px;
+    color: rgb(65, 119, 155);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(19, 17, 17);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(65, 119, 155);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(236, 233, 233, 0.747);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 18px;
+}
+
+.caja h1{
+    color: rgb(65, 119, 155);
+
+}
+footer{
+    background-color: gray;
+}
